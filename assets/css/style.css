@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #210340;
+}
+
+.mdc-top-app-bar {
+    background-color: #210340;
+}
+
+hr {
+    border: 1px solid rgba(167, 98, 234, 0.4);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: CeraPro-Bold, 'Cera Pro', sans-serif;
+    font-weight: 700;
+    height: 80px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.container {
+    padding: 0 25px;
+}
+
+.mdc-top-app-bar__title {
+    padding-left: 25px;
+    font-family: CeraPro-Bold, 'Cera Pro', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.mdc-top-app-bar--fixed-adjust {
+    padding-top: 50px;
+}
+
+#cards {
+    min-height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: #fff;
+    font-family: CeraPro-Regular, 'Cera Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.chef-name {
+    font-family: CeraPro-Bold, 'Cera Pro', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    align-self: center;
+}
+
+.chef-price {
+    font-family: CeraPro-Bold, 'Cera Pro', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+.card-product {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 230px;
+    min-width: 200px;
+    max-height: 190px;
+    text-align: left;
+}
+
+.mdc-button__label {
+    color: #fff;
+    font-family: CeraPro-Bold, 'Cera Pro', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.mdc-button {
+    align-self: flex-start;
+}
+
+.ul-card {
+    width: 100%;
+    display: flex;
+    height: 80%;
+    gap: 10px;
+    flex-direction: column;
+}
+
+ul,
+li {
+    padding: 0;
+    list-style: none;
+}
