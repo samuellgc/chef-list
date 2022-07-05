@@ -4,8 +4,17 @@ body {
     background-color: #210340;
 }
 
+.img-logo {
+    width: 100px;
+    height: 35px;
+}
+
 .mdc-top-app-bar {
     background-color: #210340;
+}
+
+.mdc-top-app-bar--short {
+    padding: 0 20px 0 12px;
 }
 
 hr {
@@ -39,6 +48,10 @@ footer {
 
 .mdc-top-app-bar--fixed-adjust {
     padding-top: 50px;
+}
+
+.mdc-top-app-bar__section--align-start {
+    justify-content: space-between;
 }
 
 #cards {
@@ -104,4 +117,45 @@ ul,
 li {
     padding: 0;
     list-style: none;
+}
+
+.title-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-main {
+    font-family: CeraPro-Bold, 'Cera Pro', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.log-in {
+    font-family: CeraPro-Bold, 'Cera Pro', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.mini-card {
+    border: 1px solid white;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 8px;
+}
+
+.mini-card:hover {
+    border: 1px solid #210340;
+    background-color: #fff;
+    color: #210340;
+    cursor: pointer;
 }

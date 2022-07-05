@@ -44,12 +44,22 @@ foreach($results['hits'] as $hit) {
 <header class="mdc-top-app-bar mdc-top-app-bar--short">
   <div class="mdc-top-app-bar__row">
     <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-      <span class="mdc-top-app-bar__title">Chef's List</span>
+      <img src="assets/images/goco_logo.svg" alt="logo image" class="img-logo">
+      
+      <div class="mini-card">
+        <span class="material-icons">
+            account_circle
+        </span>
+        <span class="log-in">Log in</span>
+      </div>
     </section>
   </div>
 </header>
 <main class="mdc-top-app-bar--fixed-adjust">
     <hr>
+<div class="title-main">
+    <span class="desc-main">Chef's List</span>
+</div>
 <div class="container" id="cards">
     <?=$return?>
 </div>
