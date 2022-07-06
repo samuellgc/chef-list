@@ -5,8 +5,9 @@ body {
 }
 
 .img-logo {
-    width: 100px;
-    height: 35px;
+    width: 150px;
+    height: 45px;
+    filter: invert(100%);
 }
 
 .mdc-top-app-bar {

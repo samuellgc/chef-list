@@ -44,7 +44,7 @@ foreach($results['hits'] as $hit) {
 <header class="mdc-top-app-bar mdc-top-app-bar--short">
   <div class="mdc-top-app-bar__row">
     <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-      <img src="assets/images/goco_logo.svg" alt="logo image" class="img-logo">
+      <img src="assets/images/logo.svg" alt="logo image" class="img-logo">
       
       <div class="mini-card">
         <span class="material-icons">
